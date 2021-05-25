@@ -1,0 +1,62 @@
+﻿<Window x:Class="RFDesign.ActiveRFMicrowaveDevices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RFDesign"
+        mc:Ignorable="d"
+        Title="ActiveRFMicrowaveDevices" Height="834" Width="1143" MaxWidth="1143" MaxHeight="834">
+    <TabControl>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TabControl>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <TabControl>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="-15,15,16,8" Stretch="Fill" Source="/Modulation1.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="10,0,10,10" Stretch="Fill" Source="/Modulation2.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                            </TabControl>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <TabControl>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="2,6,9,13" Stretch="Fill" Source="/Modulation3.JPG"/>
+                                        <TextBox HorizontalAlignment="Left" Height="37" Margin="203,684,0,0" Text="[Online]. - https://www.tutorialspoint.com/digital_communication/digital_communication_phase_shift_keying.htm." TextWrapping="Wrap" VerticalAlignment="Top" Width="645"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem Header="TabItem" Height="20" VerticalAlignment="Top">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="10,0,10,10" Stretch="Fill" Source="pack://siteoforigin:,,,/Modulation4.JPG"/>
+                                        <Image Margin="4,7,8,14" Stretch="Fill" Source="/Modulation4.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                            </TabControl>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Image Margin="18,5,18,28" Stretch="Fill" Source="/Modulation5.JPG"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

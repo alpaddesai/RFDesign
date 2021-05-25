@@ -1,0 +1,80 @@
+﻿<Window x:Class="RFDesign.MicrowaveAmplifierDesign"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RFDesign"
+        mc:Ignorable="d"
+        Title="MicrowaveAmplifierDesign" Height="805" Width="1217" MaxWidth="1217" MaxHeight="805">
+    <TabControl>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TabControl>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5" MaxWidth="1205" MaxHeight="733">
+                            <Image Margin="0,0,10,10" Stretch="Fill" Source="/Amplifier1.JPG"/>
+                            <TextBox HorizontalAlignment="Left" Margin="602,662,0,0" Text="[Online]. - https://web.ece.ucsb.edu/~long/ece145a/ADS_Harmonic_Balance.pdf." TextWrapping="Wrap" VerticalAlignment="Top" Width="530"/>
+                            <TextBox HorizontalAlignment="Left" Height="21" Margin="644,618,0,0" Text="Microwave Engineering / auth. Pozar David." TextWrapping="Wrap" VerticalAlignment="Top" Width="337"/>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="TabItem" RenderTransformOrigin="0.5,0.5">
+                        <TabItem.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="1.328"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TabItem.RenderTransform>
+                        <Grid Background="#FFE5E5E5">
+                            <Image Margin="10,0,10,10" Stretch="Fill" Source="pack://siteoforigin:,,,/Amplifier2.JPG"/>
+                            <Image Margin="0,0,10,10" Stretch="Fill" Source="/Amplifier2.JPG"/>
+                            <TextBox HorizontalAlignment="Left" Height="30" Margin="429,693,0,0" Text="CDIAN001 Stability Considerations When Designing Microwave Power Amplifiers / auth. White Paul E.." TextWrapping="Wrap" VerticalAlignment="Top" Width="594"/>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5">
+                <TabControl>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <TabControl>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="10,10,10,0" Stretch="Fill" Source="/Amplifier3.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="0,10,10,10" Stretch="Fill" Source="/Amplifier4.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                            </TabControl>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <TabControl>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="0,10,0,10" Stretch="Fill" Source="/Amplifier5.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="0,0,10,10" Stretch="Fill" Source="/Amplifier6.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                            </TabControl>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

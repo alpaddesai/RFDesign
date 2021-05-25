@@ -1,0 +1,63 @@
+﻿<Window x:Class="RFDesign.Microwave_Systems"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RFDesign"
+        mc:Ignorable="d"
+        Title="Microwave_Systems" Height="784" Width="1185" MaxWidth="1185" MaxHeight="784">
+    <Grid MaxWidth="1185" MaxHeight="768">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1151*"/>
+            <ColumnDefinition Width="34*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Margin="0,0,0,10" Grid.ColumnSpan="2">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <TabControl>
+                                    <TabItem Header="TabItem">
+                                        <Grid Background="#FFE5E5E5" MaxWidth="1167" MaxHeight="675">
+                                            <Image Margin="0,0,0,10" Stretch="Fill" Source="/AntennaTransmitter1.JPG" MaxWidth="1167" MaxHeight="664"/>
+                                        </Grid>
+                                    </TabItem>
+                                    <TabItem Header="TabItem">
+                                        <Grid Background="#FFE5E5E5">
+                                            <Image Margin="5,8,13,17" Stretch="Fill" Source="/AntennaTransmitter2.JPG"/>
+                                        </Grid>
+                                    </TabItem>
+                                </TabControl>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <TabControl>
+                                    <TabItem Header="TabItem">
+                                        <Grid Background="#FFE5E5E5">
+                                            <Image Margin="10,10,15,17" Stretch="Fill" Source="/AntennaTransmitter3.JPG"/>
+                                        </Grid>
+                                    </TabItem>
+                                    <TabItem Header="TabItem">
+                                        <Grid Background="#FFE5E5E5">
+                                            <Image Margin="13,16,11,3" Stretch="Fill" Source="/AntennaTransmitter4.JPG"/>
+                                        </Grid>
+                                    </TabItem>
+                                </TabControl>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <Image Height="720" Stretch="Fill" Source="/AntennaTransmitter5.JPG" Margin="0,0,17,0"/>
+                        <Image Height="720" Stretch="Fill" Source="pack://siteoforigin:,,,/AntennaTransmitter5.JPG" Width="1280"/>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

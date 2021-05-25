@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Amplifier1.JPG" />
+    <None Remove="Amplifier2.JPG" />
+    <None Remove="Amplifier3.JPG" />
+    <None Remove="Amplifier4.JPG" />
+    <None Remove="Amplifier5.JPG" />
+    <None Remove="Amplifier6.JPG" />
+    <None Remove="AntennaTransmitter1.JPG" />
+    <None Remove="AntennaTransmitter2.JPG" />
+    <None Remove="AntennaTransmitter3.JPG" />
+    <None Remove="AntennaTransmitter4.JPG" />
+    <None Remove="AntennaTransmitter5.JPG" />
+    <None Remove="MicrowaveFilter1.JPG" />
+    <None Remove="MicrowaveFilter2.JPG" />
+    <None Remove="MicrowaveFilter3.JPG" />
+    <None Remove="MicrowaveFilter4.JPG" />
+    <None Remove="MicrowaveFilter5.JPG" />
+    <None Remove="MicrowaveFilter6.JPG" />
+    <None Remove="Mixer1.JPG" />
+    <None Remove="Mixer2.JPG" />
+    <None Remove="Modulation1.JPG" />
+    <None Remove="Modulation2.JPG" />
+    <None Remove="Modulation3.JPG" />
+    <None Remove="Modulation4.JPG" />
+    <None Remove="Modulation5.JPG" />
+    <None Remove="NoiseDistortion1.JPG" />
+    <None Remove="NoiseDistortion2.JPG" />
+    <None Remove="NoiseDistortion3.JPG" />
+    <None Remove="Oscillator1.JPG" />
+    <None Remove="Oscillator2.JPG" />
+    <None Remove="Oscillator3.JPG" />
+    <None Remove="PowerDividers1.JPG" />
+    <None Remove="PowerDividers2.JPG" />
+    <None Remove="PowerDividers3.JPG" />
+    <None Remove="PowerDividers4.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Amplifier1.JPG" />
+    <Resource Include="Amplifier2.JPG" />
+    <Resource Include="Amplifier3.JPG" />
+    <Resource Include="Amplifier4.JPG" />
+    <Resource Include="Amplifier5.JPG" />
+    <Resource Include="Amplifier6.JPG" />
+    <Resource Include="AntennaTransmitter1.JPG" />
+    <Resource Include="AntennaTransmitter2.JPG" />
+    <Resource Include="AntennaTransmitter3.JPG" />
+    <Resource Include="AntennaTransmitter4.JPG" />
+    <Resource Include="AntennaTransmitter5.JPG" />
+    <Resource Include="MicrowaveFilter1.JPG" />
+    <Resource Include="MicrowaveFilter2.JPG" />
+    <Resource Include="MicrowaveFilter3.JPG" />
+    <Resource Include="MicrowaveFilter4.JPG" />
+    <Resource Include="MicrowaveFilter5.JPG" />
+    <Resource Include="MicrowaveFilter6.JPG" />
+    <Resource Include="Mixer1.JPG" />
+    <Resource Include="Mixer2.JPG" />
+    <Resource Include="Modulation1.JPG" />
+    <Resource Include="Modulation2.JPG" />
+    <Resource Include="Modulation3.JPG" />
+    <Resource Include="Modulation4.JPG" />
+    <Resource Include="Modulation5.JPG" />
+    <Resource Include="NoiseDistortion1.JPG" />
+    <Resource Include="NoiseDistortion2.JPG" />
+    <Resource Include="NoiseDistortion3.JPG" />
+    <Resource Include="Oscillator1.JPG" />
+    <Resource Include="Oscillator2.JPG" />
+    <Resource Include="Oscillator3.JPG" />
+    <Resource Include="PowerDividers1.JPG" />
+    <Resource Include="PowerDividers2.JPG" />
+    <Resource Include="PowerDividers3.JPG" />
+    <Resource Include="PowerDividers4.JPG" />
+  </ItemGroup>
+
+</Project>
