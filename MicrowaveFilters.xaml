@@ -20,7 +20,7 @@
                                             <TextBlock HorizontalAlignment="Left" Margin="311,731,0,0" Text="Microwave Engineering / auth. Pozar David." TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="263"/>
                                         </Grid>
                                     </TabItem>
-                                    <TabItem Header="TabItem">
+                                    <TabItem Header="TabItem" Height="22" Margin="-2,0,-2,0" VerticalAlignment="Bottom">
                                         <Grid Background="#FFE5E5E5">
                                             <Image Margin="1,1,13,16" Stretch="Fill" Source="/MicrowaveFilter2.JPG"/>
                                         </Grid>

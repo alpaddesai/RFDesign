@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RFDesign"
         mc:Ignorable="d"
-        Title="TLinesWaveGuides" Height="450" Width="800">
+        Title="TLinesWaveGuides" Height="453" Width="760" MaxWidth="760" MaxHeight="453">
     <Grid MaxWidth="800" MaxHeight="434">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="789*"/>
+            <ColumnDefinition Width="11*"/>
         </Grid.ColumnDefinitions>
+        <Image Margin="8,13,1,12" Stretch="Fill" Source="/TransmissionLInes.jpg"/>
 
     </Grid>
 </Window>

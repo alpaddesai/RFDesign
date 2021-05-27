@@ -38,3 +38,4 @@ C:\Users\alpag\source\repos\RFDesign\RFDesign\obj\Release\netcoreapp3.1\RFDesign
 C:\Users\alpag\source\repos\RFDesign\RFDesign\obj\Release\netcoreapp3.1\RFDesign.dll
 C:\Users\alpag\source\repos\RFDesign\RFDesign\obj\Release\netcoreapp3.1\RFDesign.pdb
 C:\Users\alpag\source\repos\RFDesign\RFDesign\obj\Release\netcoreapp3.1\RFDesign.genruntimeconfig.cache
+C:\Users\alpag\source\repos\RFDesign\RFDesign\obj\Release\netcoreapp3.1\RFDesign.csprojAssemblyReference.cache

@@ -5,8 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RFDesign"
         mc:Ignorable="d"
-        Title="MicrowaveNetworkAnalysis" Height="719" Width="1182" MaxWidth="1182" MaxHeight="719">
+        Title="MicrowaveNetworkAnalysis" Height="648" Width="1083" MaxWidth="1182" MaxHeight="719">
     <Grid Margin="0,0,87,42">
+        <TabControl>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <TabControl>
+                                    <TabItem Header="TabItem">
+                                        <Grid Background="#FFE5E5E5">
+                                            <Image Margin="9,8,27,9" Stretch="Fill" Source="/MicrowaveNetworkAnalysis1.JPG"/>
+                                        </Grid>
+                                    </TabItem>
+                                    <TabItem Header="TabItem" Height="20" VerticalAlignment="Bottom">
+                                        <Grid Background="#FFE5E5E5">
+                                            <Image Margin="0,-4,0,10" Stretch="Fill" Source="/MicrowaveNetworkAnalysis2.JPG"/>
+                                        </Grid>
+                                    </TabItem>
+                                </TabControl>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="35*"/>
+                                    <ColumnDefinition Width="949*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Margin="0,0,10,0" Stretch="Fill" Source="MicrowaveNetworkAnalysis3.JPG" Grid.ColumnSpan="2"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <Image Margin="-1,11,10,10" Stretch="Fill" Source="/MicrowaveNetworkAnalysis4.JPG"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <Image Margin="13,8,28,11" Stretch="Fill" Source="/MicrowaveNetworkAnalysis5.JPG"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>

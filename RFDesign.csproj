@@ -18,12 +18,20 @@
     <None Remove="AntennaTransmitter3.JPG" />
     <None Remove="AntennaTransmitter4.JPG" />
     <None Remove="AntennaTransmitter5.JPG" />
+    <None Remove="FerriteMaterials.jpg" />
+    <None Remove="ImpedanceMatching1.JPG" />
     <None Remove="MicrowaveFilter1.JPG" />
     <None Remove="MicrowaveFilter2.JPG" />
     <None Remove="MicrowaveFilter3.JPG" />
     <None Remove="MicrowaveFilter4.JPG" />
     <None Remove="MicrowaveFilter5.JPG" />
     <None Remove="MicrowaveFilter6.JPG" />
+    <None Remove="MicrowaveNetworkAnalysis1.JPG" />
+    <None Remove="MicrowaveNetworkAnalysis2.JPG" />
+    <None Remove="MicrowaveNetworkAnalysis3.JPG" />
+    <None Remove="MicrowaveNetworkAnalysis4.JPG" />
+    <None Remove="MicrowaveNetworkAnalysis5.JPG" />
+    <None Remove="MicrowaveResonators.jpg" />
     <None Remove="Mixer1.JPG" />
     <None Remove="Mixer2.JPG" />
     <None Remove="Modulation1.JPG" />
@@ -41,6 +49,7 @@
     <None Remove="PowerDividers2.JPG" />
     <None Remove="PowerDividers3.JPG" />
     <None Remove="PowerDividers4.JPG" />
+    <None Remove="TransmissionLInes.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -55,12 +64,20 @@
     <Resource Include="AntennaTransmitter3.JPG" />
     <Resource Include="AntennaTransmitter4.JPG" />
     <Resource Include="AntennaTransmitter5.JPG" />
+    <Resource Include="FerriteMaterials.jpg" />
+    <Resource Include="ImpedanceMatching1.JPG" />
     <Resource Include="MicrowaveFilter1.JPG" />
     <Resource Include="MicrowaveFilter2.JPG" />
     <Resource Include="MicrowaveFilter3.JPG" />
     <Resource Include="MicrowaveFilter4.JPG" />
     <Resource Include="MicrowaveFilter5.JPG" />
     <Resource Include="MicrowaveFilter6.JPG" />
+    <Resource Include="MicrowaveNetworkAnalysis1.JPG" />
+    <Resource Include="MicrowaveNetworkAnalysis2.JPG" />
+    <Resource Include="MicrowaveNetworkAnalysis3.JPG" />
+    <Resource Include="MicrowaveNetworkAnalysis4.JPG" />
+    <Resource Include="MicrowaveNetworkAnalysis5.JPG" />
+    <Resource Include="MicrowaveResonators.jpg" />
     <Resource Include="Mixer1.JPG" />
     <Resource Include="Mixer2.JPG" />
     <Resource Include="Modulation1.JPG" />
@@ -78,6 +95,7 @@
     <Resource Include="PowerDividers2.JPG" />
     <Resource Include="PowerDividers3.JPG" />
     <Resource Include="PowerDividers4.JPG" />
+    <Resource Include="TransmissionLInes.jpg" />
   </ItemGroup>
 
 </Project>
