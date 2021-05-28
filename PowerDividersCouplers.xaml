@@ -6,53 +6,109 @@
         xmlns:local="clr-namespace:RFDesign"
         mc:Ignorable="d"
         Title="PowerDividersCouplers" Height="775" Width="1164" MaxWidth="1164" MaxHeight="775">
-    <Grid Margin="0,0,74,37">
-        <TabControl>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5">
-                    <TabControl Margin="0,0,-44,-23">
-                        <TabItem Header="TabItem">
-                            <Grid Background="#FFE5E5E5">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="73*"/>
-                                    <ColumnDefinition Width="1005*"/>
-                                </Grid.ColumnDefinitions>
-                                <Image Margin="14,7,33,10" Stretch="Fill" Source="/PowerDividers1.JPG" Grid.ColumnSpan="2"/>
-                            </Grid>
-                        </TabItem>
-                        <TabItem Header="TabItem">
-                            <Grid Background="#FFE5E5E5" Height="652" Margin="0,0,27,0">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="215*"/>
-                                    <RowDefinition Height="118*"/>
-                                </Grid.RowDefinitions>
-                                <Image Margin="10,14,23,14" Stretch="Fill" Source="/PowerDividers2.JPG" Grid.RowSpan="2"/>
-                            </Grid>
-                        </TabItem>
-                    </TabControl>
-                </Grid>
-            </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5">
-                    <TabControl>
-                        <TabItem Header="TabItem">
-                            <Grid Background="#FFE5E5E5">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="38*"/>
-                                    <ColumnDefinition Width="501*"/>
-                                </Grid.ColumnDefinitions>
-                                <Image Margin="-13,4,17,13" Stretch="Fill" Source="/PowerDividers3.JPG" Grid.ColumnSpan="2"/>
-                            </Grid>
-                        </TabItem>
-                        <TabItem Header="TabItem">
-                            <Grid Background="#FFE5E5E5">
-                                <Image Margin="15,15,27,0" Stretch="Fill" Source="/PowerDividers4.JPG"/>
-                            </Grid>
-                        </TabItem>
-                    </TabControl>
-                </Grid>
-            </TabItem>
-        </TabControl>
-
-    </Grid>
+    <TabControl>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TabControl Grid.ColumnSpan="2">
+                    <TabItem Header="TabItem">
+                        <TabControl>
+                            <TabItem Header="TabItem">
+                                <Grid Background="#FFE5E5E5">
+                                    <TabControl>
+                                        <TabItem Header="TabItem">
+                                            <Grid Background="#FFE5E5E5">
+                                                <Image Margin="1,5,10,10" Stretch="Fill" Source="PowerDividers1.JPG" MaxWidth="1096" MaxHeight="632"/>
+                                            </Grid>
+                                        </TabItem>
+                                        <TabItem Header="TabItem">
+                                            <Grid Background="#FFE5E5E5">
+                                                <Image Margin="10,0,10,10" Stretch="Fill" Source="PowerDividers2.JPG"/>
+                                            </Grid>
+                                        </TabItem>
+                                    </TabControl>
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="TabItem">
+                                <Grid Background="#FFE5E5E5">
+                                    <Image Margin="0,0,10,0" Stretch="Fill" Source="PowerDividers3.JPG"/>
+                                </Grid>
+                            </TabItem>
+                        </TabControl>
+                    </TabItem>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <Image Margin="0,0,10,10" Stretch="Fill" Source="PowerDividers4.JPG"/>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TabControl>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <TabControl>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="-2,5,21,28" Stretch="Fill" Source="/PowerDividers5.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Image Margin="10,19,31,28" Stretch="Fill" Source="/PowerDividers6.JPG"/>
+                                    </Grid>
+                                </TabItem>
+                            </TabControl>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <TabControl>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <TabControl>
+                                            <TabItem Header="TabItem">
+                                                <Grid Background="#FFE5E5E5">
+                                                    <Image Margin="0,0,10,10" Stretch="Fill" Source="PowerDividers6.JPG"/>
+                                                </Grid>
+                                            </TabItem>
+                                            <TabItem Header="TabItem">
+                                                <Grid Background="#FFE5E5E5">
+                                                    <Image Margin="12,11,24,23" Stretch="Fill" Source="/PowerDividers7.JPG"/>
+                                                </Grid>
+                                            </TabItem>
+                                        </TabControl>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem Header="TabItem">
+                                    <Grid Background="#FFE5E5E5">
+                                        <TabControl>
+                                            <TabItem Header="TabItem">
+                                                <Grid Background="#FFE5E5E5">
+                                                    <Image Margin="9,11,24,31" Stretch="Fill" Source="/PowerDividers8.JPG"/>
+                                                </Grid>
+                                            </TabItem>
+                                            <TabItem Header="TabItem">
+                                                <Grid Background="#FFE5E5E5">
+                                                    <Image Margin="1,5,31,26" Stretch="Fill" Source="/PowerDividers9.JPG"/>
+                                                </Grid>
+                                            </TabItem>
+                                        </TabControl>
+                                    </Grid>
+                                </TabItem>
+                            </TabControl>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </TabItem>
+    </TabControl>
 </Window>

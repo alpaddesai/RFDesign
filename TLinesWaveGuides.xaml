@@ -5,13 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RFDesign"
         mc:Ignorable="d"
-        Title="TLinesWaveGuides" Height="453" Width="760" MaxWidth="760" MaxHeight="453">
+        Title="TLinesWaveGuides" Height="468" Width="784" MaxWidth="760" MaxHeight="453">
     <Grid MaxWidth="800" MaxHeight="434">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="789*"/>
             <ColumnDefinition Width="11*"/>
         </Grid.ColumnDefinitions>
-        <Image Margin="8,13,1,12" Stretch="Fill" Source="/TransmissionLInes.jpg"/>
+        <TabControl>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Image Stretch="Fill" Source="TransmissionLInes.jpg"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Image Margin="5,7,16,7" Stretch="Fill" Source="/TransmissionLines2.JPG"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TextBox HorizontalAlignment="Left" Margin="405,35,0,0" Text="Microwave Engineering David Pozar" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
 
     </Grid>
 </Window>

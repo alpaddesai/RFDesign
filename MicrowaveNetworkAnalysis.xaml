@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RFDesign"
         mc:Ignorable="d"
-        Title="MicrowaveNetworkAnalysis" Height="648" Width="1083" MaxWidth="1182" MaxHeight="719">
+        Title="MicrowaveNetworkAnalysis" Height="641" Width="1095" MaxWidth="1182" MaxHeight="719">
     <Grid Margin="0,0,87,42">
         <TabControl>
             <TabItem Header="TabItem">
@@ -56,6 +56,8 @@
                 </Grid>
             </TabItem>
         </TabControl>
+        <TextBox HorizontalAlignment="Left" Margin="572,485,0,0" Text="Microwave Engineering David Pozar" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+        <TextBox HorizontalAlignment="Left" Margin="454,91,0,0" Text="Microwave Engineering David Pozar" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
 
     </Grid>
 </Window>

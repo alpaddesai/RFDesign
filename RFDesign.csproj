@@ -20,6 +20,8 @@
     <None Remove="AntennaTransmitter5.JPG" />
     <None Remove="FerriteMaterials.jpg" />
     <None Remove="ImpedanceMatching1.JPG" />
+    <None Remove="ImpedanceMatching2.JPG" />
+    <None Remove="ImpedanceMatching3.JPG" />
     <None Remove="MicrowaveFilter1.JPG" />
     <None Remove="MicrowaveFilter2.JPG" />
     <None Remove="MicrowaveFilter3.JPG" />
@@ -49,7 +51,13 @@
     <None Remove="PowerDividers2.JPG" />
     <None Remove="PowerDividers3.JPG" />
     <None Remove="PowerDividers4.JPG" />
+    <None Remove="PowerDividers5.JPG" />
+    <None Remove="PowerDividers6.JPG" />
+    <None Remove="PowerDividers7.JPG" />
+    <None Remove="PowerDividers8.JPG" />
+    <None Remove="PowerDividers9.JPG" />
     <None Remove="TransmissionLInes.jpg" />
+    <None Remove="TransmissionLines2.JPG" />
   </ItemGroup>
 
   <ItemGroup>
@@ -66,6 +74,8 @@
     <Resource Include="AntennaTransmitter5.JPG" />
     <Resource Include="FerriteMaterials.jpg" />
     <Resource Include="ImpedanceMatching1.JPG" />
+    <Resource Include="ImpedanceMatching2.JPG" />
+    <Resource Include="ImpedanceMatching3.JPG" />
     <Resource Include="MicrowaveFilter1.JPG" />
     <Resource Include="MicrowaveFilter2.JPG" />
     <Resource Include="MicrowaveFilter3.JPG" />
@@ -95,7 +105,13 @@
     <Resource Include="PowerDividers2.JPG" />
     <Resource Include="PowerDividers3.JPG" />
     <Resource Include="PowerDividers4.JPG" />
+    <Resource Include="PowerDividers5.JPG" />
+    <Resource Include="PowerDividers6.JPG" />
+    <Resource Include="PowerDividers7.JPG" />
+    <Resource Include="PowerDividers8.JPG" />
+    <Resource Include="PowerDividers9.JPG" />
     <Resource Include="TransmissionLInes.jpg" />
+    <Resource Include="TransmissionLines2.JPG" />
   </ItemGroup>
 
 </Project>

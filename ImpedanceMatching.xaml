@@ -10,14 +10,34 @@
         <TabControl Margin="-71,-118,-83,-146">
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <Image Margin="0,10,10,0" Stretch="Fill" Source="/ImpedanceMatching1.JPG"/>
+                    <TabControl>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40*"/>
+                                    <ColumnDefinition Width="431*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Margin="0,10,10,10" Stretch="Fill" Source="/ImpedanceMatching2.JPG" Grid.ColumnSpan="2"/>
+                                <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="239,23,0,0" Text="Microwave Engineering David Pozar" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="TabItem">
+                            <Grid Background="#FFE5E5E5">
+                                <Image Margin="0,0,10,10" Stretch="Fill" Source="pack://siteoforigin:,,,/ImpedanceMatching3.JPG"/>
+                                <TextBox HorizontalAlignment="Left" Height="20" Text="https://www.microwaves101.com/encyclopedias/maximally-flat-impedance-transformers" TextWrapping="Wrap" VerticalAlignment="Top" Width="496"/>
+                                <TextBox HorizontalAlignment="Left" Margin="560,0,0,0" Text="https://www.microwaves101.com/encyclopedias/klopfenstein-taper" TextWrapping="Wrap" VerticalAlignment="Top" Width="382" Height="20"/>
+                                <Image Margin="14,24,15,10" Stretch="Fill" Source="/ImpedanceMatching3.JPG"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
                 </Grid>
             </TabItem>
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5" Margin="0,0,-10,-3">
-                    <Image Margin="19,9,18,18" Stretch="Fill" Source="/MicrowaveResonators.jpg"/>
+                    <Image Margin="10,0,10,10" Stretch="Fill" Source="ImpedanceMatching1.JPG"/>
                 </Grid>
             </TabItem>
         </TabControl>
+        <TextBox HorizontalAlignment="Left" Margin="307,-76,0,0" Text="Microwave Engineering David Pozar" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
     </Grid>
 </Window>

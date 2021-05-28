@@ -59,5 +59,6 @@
                 </Grid>
             </TabItem>
         </TabControl>
+        <TextBox HorizontalAlignment="Left" Margin="413,704,0,0" Text="Microwave Engineering David Pozar" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
     </Grid>
 </Window>
