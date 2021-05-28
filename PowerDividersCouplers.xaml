@@ -77,11 +77,6 @@
                                         <TabControl>
                                             <TabItem Header="TabItem">
                                                 <Grid Background="#FFE5E5E5">
-                                                    <Image Margin="0,0,10,10" Stretch="Fill" Source="PowerDividers6.JPG"/>
-                                                </Grid>
-                                            </TabItem>
-                                            <TabItem Header="TabItem">
-                                                <Grid Background="#FFE5E5E5">
                                                     <Image Margin="12,11,24,23" Stretch="Fill" Source="/PowerDividers7.JPG"/>
                                                 </Grid>
                                             </TabItem>
