@@ -58,6 +58,5 @@ Please download the executable in https://github.com/alpaddesai/RFDesign/release
 ![image](Slide23.JPG)
 
 
-
-
+![image](EthicsandExcellence.png)
 
