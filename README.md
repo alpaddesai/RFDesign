@@ -15,8 +15,6 @@ Please download the executable in https://github.com/alpaddesai/RFDesign/release
 
 ## Microwave Network Analysis
 ![image](MicrowaveNetworkAnalysis.jpg)
-![image]](Slide1.JPG)
-![image]](Slide2.JPG)
 
 ## Microwave filters
 ![image](Slide3.JPG)
