@@ -55,6 +55,5 @@ Please download the executable in https://github.com/alpaddesai/RFDesign/release
 ![image](Slide22.JPG)
 ![image](Slide23.JPG)
 
-
 ![image](EthicsandExcellence.png)
-
+Additional details: https://github.com/alpaddesai/MSEE_EngineeringProjectManagement
