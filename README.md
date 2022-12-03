@@ -59,4 +59,4 @@ Please download the executable in https://github.com/alpaddesai/RFDesign/release
 
 ![image](USCopyrightCertificate.png)
 
-Additional details: https://github.com/alpaddesai/MSEE_EngineeringProjectManagement
+Additional details: https://github.com/alpaddesai/Microwave-Engineering
