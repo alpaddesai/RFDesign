@@ -26,7 +26,7 @@ Please download the executable in https://github.com/alpaddesai/RFDesign/release
 ![image](Tlines.jpg)
 
 ## Power Dividers and Couplers
-![image](Slide6JPG)
+![image](Slide6.JPG)
 ![image](Slide7.JPG)
 ![image](Slide8.JPG)
 ![image](Slide9.JPG)
