@@ -61,4 +61,4 @@ Confidential information is not displayed. References are provided for the non-c
 
 ![image](USCopyrightCertificate.png)
 
-Additional details: https://github.com/alpaddesai/DesignEngineering
+Additional details: https://github.com/alpaddesai/ArchitecturalProductDesign
